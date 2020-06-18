@@ -1,0 +1,26 @@
+.outer {
+  display: inline-block;
+  top: 0;
+}
+.middle {
+  display: inline-block;
+  top: 50%;
+  position: relative;
+}
+.inner {
+  display: inline-block;
+  top: -50%;
+  position: relative;
+  background-color: black;
+}
+.old-logo {
+  position: absolute;
+  height: 200px;
+  width: 400px;
+}
+.old-about {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  left: 0;
+}

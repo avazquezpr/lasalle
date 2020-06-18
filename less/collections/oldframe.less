@@ -1,0 +1,125 @@
+
+// grid
+
+.ui.grid > .column,
+.row > .column{
+  display: block;
+  float: left;
+
+}
+
+
+
+
+
+.loopvar(@sizex,@counter) when (@counter > 0) {
+  .loopvar(@sizex,(@counter - 1));    // next iteration
+  .row > .@{sizex}-@{counter}.column{
+    width: (6.25% * @counter); // code for each iteration
+  }
+}
+
+.loopvar(xlarge,16);
+.loopvar(large,16);
+
+.loopvar(small,16);
+.loopvar(medium,16);
+
+
+.ui.page.grid {
+  min-width: 320px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+// labels
+
+.ui.supersmall.labels .label,
+.ui.supersmall.label {
+  font-size:50%;
+}
+.ui.small.labels .label,
+.ui.small.label {
+  font-size: 70%;
+}
+
+.ui.label {
+  font-size: 57%;
+}
+
+.ui.large.labels .label,
+.ui.large.label {
+  font-size: 100%;
+}
+
+.ui.xlarge.labels .label,
+.ui.xlarge.label {
+  font-size: 150%;
+}
+
+.ui.huge.labels .label,
+.ui.huge.label {
+  font-size: 300%;
+}
+
+// steps
+
+.ui.small.step,
+.ui.small.steps .step {
+  font-size: 10px;
+}
+
+.ui.step,
+.ui.steps .step {
+  font-size: 12px;
+}
+
+.ui.large.step,
+.ui.large.steps .step {
+  font-size: 18px;
+}
+
+
+// accordion
+//.ui.accordion .content,
+//.ui.accordion .accordion .content {
+//  display: block;
+//  margin: 0em;
+//  padding: 1.3em 1em;
+//}
+
+
+//menu
+
+
+.ui.vertical.menu .dropdown.item .menu .item {
+  font-size: 16px;
+}
+
+.ui.tiered.menu .sub.menu .item {
+  font-size: 12px;
+
+}
+.ui.text.menu .header.item {
+  font-size:12px;
+}
+.ui.small.menu .item {
+  font-size: 12px;
+}
+
+.ui.menu .item {
+  font-size: 16px;
+}
+
+.ui.large.menu .item {
+  font-size: 20px;
+}
+
+.ui.large.menu .item .item {
+  font-size: 12px;
+}
+
+.ui.large.menu .dropdown .item {
+  font-size: 12px;
+}

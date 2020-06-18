@@ -1,0 +1,55 @@
+.alto10 {
+  height: 10rem;
+}
+.alto5 {
+  height: 5rem;
+}
+.alto20 {
+  height: 20rem;
+  padding: 1rem;
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 62%;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  html {
+    font-size: 67%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 624px) {
+  html {
+    font-size: 72%;
+  }
+}
+@media screen and (min-width: 625px) and (max-width: 768px) {
+  html {
+    font-size: 76%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 984px) {
+  html {
+    font-size: 83%;
+  }
+}
+@media screen and (min-width: 985px) and (max-width: 1200px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+  html {
+    font-size: 100%;
+  }
+}
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+  html {
+    font-size: 109%;
+  }
+}
+@media screen and (min-width: 1801px) {
+  html {
+    font-size: 110%;
+  }
+}

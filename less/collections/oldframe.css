@@ -1,0 +1,261 @@
+.ui.grid > .column,
+.row > .column {
+  display: block;
+  float: left;
+}
+.row > .xlarge-1.column {
+  width: 6.25%;
+}
+.row > .xlarge-2.column {
+  width: 12.5%;
+}
+.row > .xlarge-3.column {
+  width: 18.75%;
+}
+.row > .xlarge-4.column {
+  width: 25%;
+}
+.row > .xlarge-5.column {
+  width: 31.25%;
+}
+.row > .xlarge-6.column {
+  width: 37.5%;
+}
+.row > .xlarge-7.column {
+  width: 43.75%;
+}
+.row > .xlarge-8.column {
+  width: 50%;
+}
+.row > .xlarge-9.column {
+  width: 56.25%;
+}
+.row > .xlarge-10.column {
+  width: 62.5%;
+}
+.row > .xlarge-11.column {
+  width: 68.75%;
+}
+.row > .xlarge-12.column {
+  width: 75%;
+}
+.row > .xlarge-13.column {
+  width: 81.25%;
+}
+.row > .xlarge-14.column {
+  width: 87.5%;
+}
+.row > .xlarge-15.column {
+  width: 93.75%;
+}
+.row > .xlarge-16.column {
+  width: 100%;
+}
+.row > .large-1.column {
+  width: 6.25%;
+}
+.row > .large-2.column {
+  width: 12.5%;
+}
+.row > .large-3.column {
+  width: 18.75%;
+}
+.row > .large-4.column {
+  width: 25%;
+}
+.row > .large-5.column {
+  width: 31.25%;
+}
+.row > .large-6.column {
+  width: 37.5%;
+}
+.row > .large-7.column {
+  width: 43.75%;
+}
+.row > .large-8.column {
+  width: 50%;
+}
+.row > .large-9.column {
+  width: 56.25%;
+}
+.row > .large-10.column {
+  width: 62.5%;
+}
+.row > .large-11.column {
+  width: 68.75%;
+}
+.row > .large-12.column {
+  width: 75%;
+}
+.row > .large-13.column {
+  width: 81.25%;
+}
+.row > .large-14.column {
+  width: 87.5%;
+}
+.row > .large-15.column {
+  width: 93.75%;
+}
+.row > .large-16.column {
+  width: 100%;
+}
+.row > .small-1.column {
+  width: 6.25%;
+}
+.row > .small-2.column {
+  width: 12.5%;
+}
+.row > .small-3.column {
+  width: 18.75%;
+}
+.row > .small-4.column {
+  width: 25%;
+}
+.row > .small-5.column {
+  width: 31.25%;
+}
+.row > .small-6.column {
+  width: 37.5%;
+}
+.row > .small-7.column {
+  width: 43.75%;
+}
+.row > .small-8.column {
+  width: 50%;
+}
+.row > .small-9.column {
+  width: 56.25%;
+}
+.row > .small-10.column {
+  width: 62.5%;
+}
+.row > .small-11.column {
+  width: 68.75%;
+}
+.row > .small-12.column {
+  width: 75%;
+}
+.row > .small-13.column {
+  width: 81.25%;
+}
+.row > .small-14.column {
+  width: 87.5%;
+}
+.row > .small-15.column {
+  width: 93.75%;
+}
+.row > .small-16.column {
+  width: 100%;
+}
+.row > .medium-1.column {
+  width: 6.25%;
+}
+.row > .medium-2.column {
+  width: 12.5%;
+}
+.row > .medium-3.column {
+  width: 18.75%;
+}
+.row > .medium-4.column {
+  width: 25%;
+}
+.row > .medium-5.column {
+  width: 31.25%;
+}
+.row > .medium-6.column {
+  width: 37.5%;
+}
+.row > .medium-7.column {
+  width: 43.75%;
+}
+.row > .medium-8.column {
+  width: 50%;
+}
+.row > .medium-9.column {
+  width: 56.25%;
+}
+.row > .medium-10.column {
+  width: 62.5%;
+}
+.row > .medium-11.column {
+  width: 68.75%;
+}
+.row > .medium-12.column {
+  width: 75%;
+}
+.row > .medium-13.column {
+  width: 81.25%;
+}
+.row > .medium-14.column {
+  width: 87.5%;
+}
+.row > .medium-15.column {
+  width: 93.75%;
+}
+.row > .medium-16.column {
+  width: 100%;
+}
+.ui.page.grid {
+  min-width: 320px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.ui.supersmall.labels .label,
+.ui.supersmall.label {
+  font-size: 50%;
+}
+.ui.small.labels .label,
+.ui.small.label {
+  font-size: 70%;
+}
+.ui.label {
+  font-size: 57%;
+}
+.ui.large.labels .label,
+.ui.large.label {
+  font-size: 100%;
+}
+.ui.xlarge.labels .label,
+.ui.xlarge.label {
+  font-size: 150%;
+}
+.ui.huge.labels .label,
+.ui.huge.label {
+  font-size: 300%;
+}
+.ui.small.step,
+.ui.small.steps .step {
+  font-size: 10px;
+}
+.ui.step,
+.ui.steps .step {
+  font-size: 12px;
+}
+.ui.large.step,
+.ui.large.steps .step {
+  font-size: 18px;
+}
+.ui.vertical.menu .dropdown.item .menu .item {
+  font-size: 16px;
+}
+.ui.tiered.menu .sub.menu .item {
+  font-size: 12px;
+}
+.ui.text.menu .header.item {
+  font-size: 12px;
+}
+.ui.small.menu .item {
+  font-size: 12px;
+}
+.ui.menu .item {
+  font-size: 16px;
+}
+.ui.large.menu .item {
+  font-size: 20px;
+}
+.ui.large.menu .item .item {
+  font-size: 12px;
+}
+.ui.large.menu .dropdown .item {
+  font-size: 12px;
+}

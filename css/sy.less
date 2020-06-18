@@ -1,0 +1,70 @@
+.alto10{
+  height: 10rem;
+}
+
+.alto5{
+  height: 5rem;
+}
+
+.alto20{
+  height: 20rem;
+  padding: 1rem;
+}
+
+//-------------------------------   basicos
+@fsize: 100%;
+@winheight:'$(window).height()';
+@winwidth:'$(window).width()';
+
+@media screen and (max-width: 320px){
+  // body{   background-image:url('../images/scr2.png'); }
+  html { font-size: 62%; @fsize: 62%; }
+}
+@media screen and (min-width: 321px) and (max-width: 480px){
+  // body{
+  //        background-image:url('../images/scr1.png');
+  //   }
+  html {font-size: 67%; @fsize: 67%; }
+}
+@media screen and (min-width: 481px) and (max-width: 624px){
+  // body{
+  //        background-image:url('../images/scr1.png');
+  //   }
+  html {font-size: 72%; @fsize: 72%; }
+}
+@media screen and (min-width: 625px) and (max-width: 768px){
+  // body{
+  //        background-image:url('../images/scr1.png');
+  //   }
+  html {font-size: 76%; @fsize: 76%; }
+}
+@media screen and (min-width: 769px) and (max-width: 984px){
+  // body{
+  //    background-image:url('../images/scr2.png');
+  // }
+  html {font-size: 83%; @fsize: 83%; }
+}
+@media screen and (min-width: 985px) and (max-width: 1200px){
+  // body{
+  //    background-image:url('../images/scr2.png');
+  // }
+  html {font-size: 90%; @fsize: 90%; }
+}
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+  // body{
+  //    background-image:url('../images/scr1.png');
+  // }
+  html {font-size: 100%; @fsize: 100%;  }
+}
+@media screen and (min-width: 1501px) and (max-width: 1800px) {
+  // body{
+  //    background-image:url('../images/scr1.png');
+  // }
+  html {font-size: 109%; @fsize: 109%;  }
+}
+@media screen and (min-width: 1801px) {
+  // body{
+  //    background-image:url('../images/scr1.png');
+  // }
+  html {font-size: 110%; @fsize: 112%; }
+}
